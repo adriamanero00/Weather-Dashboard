@@ -34,7 +34,7 @@ while True:
                  "pressure": pressure})
 
     # Save the data to a JSON file
-    with open("/var/www/html/FINAL/data.json", "w") as outfile:
+    with open("/var/www/html/Weather-Dashboard/data.json", "w") as outfile:
         json.dump(data, outfile)
 
     time.sleep(1)
